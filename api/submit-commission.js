@@ -1,5 +1,5 @@
 const DISCORD_USER_ID = '610128494290141200';
-const CLOSED_PHRASE = 'Currently not open for any work';
+const CLOSED_PHRASE = 'no';
 
 const ALLOWED_ORIGINS = [
   'https://318iF6K2.github.io',
