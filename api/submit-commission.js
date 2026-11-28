@@ -105,3 +105,11 @@ export default async function handler(req, res) {
     return res.status(500).json({ message: 'Internal Server Error' });
   }
 }
+const response = await fetch(
+  'https://pato-teleport-me-to-mars-api.vercel.app/api/submit-commission',
+  {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ contact, details })
+  }
+);
