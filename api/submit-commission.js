@@ -6,7 +6,6 @@ const ALLOWED_ORIGINS = [
   'https://318iF6K2.github.io',
   'https://crazyben.dev',
   'https://www.crazyben.dev'
-  'https://pato-teleport-me-to-mars-api.vercel.app'
 ];
 
 export default async function handler(req, res) {
